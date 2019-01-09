@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.30.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RQG-UL-BZA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.19.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fear-->
+        <scene sceneID="JaK-RT-7bm">
+            <objects>
+                <viewController id="42n-By-mL4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fta-KA-zY2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDt-nL-bLQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <segue destination="bYf-5d-dOI" kind="embed" id="ous-vA-TxN"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EDt-nL-bLQ" firstAttribute="bottom" secondItem="AKb-5y-gY2" secondAttribute="bottom" id="Mgb-pF-bu4"/>
+                            <constraint firstItem="EDt-nL-bLQ" firstAttribute="top" secondItem="Fta-KA-zY2" secondAttribute="top" id="iir-v4-edD"/>
+                            <constraint firstItem="EDt-nL-bLQ" firstAttribute="leading" secondItem="AKb-5y-gY2" secondAttribute="leading" id="nev-2r-hAA"/>
+                            <constraint firstItem="EDt-nL-bLQ" firstAttribute="trailing" secondItem="AKb-5y-gY2" secondAttribute="trailing" id="v7g-dk-MKA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AKb-5y-gY2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fear" image="iconFacebook" id="UG4-Hz-RVz" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="E7i-zz-0WM" id="3NA-IT-rbe"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AZB-V5-fU9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="E7i-zz-0WM" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="1" green="0.49411764705882355" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="375" y="-803"/>
+        </scene>
+        <!--Coin-->
+        <scene sceneID="tO1-aZ-GMP">
+            <objects>
+                <viewController id="jV2-hr-bDq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JdS-X6-KuU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pB8-vt-ftc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="XwD-oe-xsN" kind="embed" id="7md-za-ihH"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pB8-vt-ftc" firstAttribute="bottom" secondItem="PHN-bk-jmZ" secondAttribute="bottom" id="9HA-ec-W4T"/>
+                            <constraint firstItem="pB8-vt-ftc" firstAttribute="trailing" secondItem="PHN-bk-jmZ" secondAttribute="trailing" id="Ccd-Jy-Neo"/>
+                            <constraint firstItem="pB8-vt-ftc" firstAttribute="top" secondItem="JdS-X6-KuU" secondAttribute="top" id="bWD-QF-Pnu"/>
+                            <constraint firstItem="pB8-vt-ftc" firstAttribute="leading" secondItem="PHN-bk-jmZ" secondAttribute="leading" id="hQ0-Cv-UZb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PHN-bk-jmZ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Coin" image="iconBitcoin" id="yth-ZG-sQb" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="osr-Lo-3K7" id="E8v-xv-b5O"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Lh-Ej-gdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="osr-Lo-3K7" userLabel="Animation" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="375" y="-142"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="fXl-yv-ydv">
+            <objects>
+                <tabBarController storyboardIdentifier="RAMAnimatedTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="RQG-UL-BZA" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bvn-cE-lOb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jV2-hr-bDq" kind="relationship" relationship="viewControllers" id="wzI-jG-baS"/>
+                        <segue destination="hfy-p0-aTZ" kind="relationship" relationship="viewControllers" id="yDU-V9-xCX"/>
+                        <segue destination="wd9-Lt-scS" kind="relationship" relationship="viewControllers" id="IRP-Fe-yTq"/>
+                        <segue destination="hc1-lw-l3d" kind="relationship" relationship="viewControllers" id="Xz1-qH-SOu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72U-yH-n2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-334" y="-305"/>
+        </scene>
+        <!--Fear Navigation Controller-->
+        <scene sceneID="d05-Xc-YGG">
+            <objects>
+                <navigationController storyboardIdentifier="FearNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bYf-5d-dOI" customClass="FearNavigationController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LJN-R1-7q3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GOQ-d7-aOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="-803"/>
+        </scene>
+        <!--Coin Navigation View Controller-->
+        <scene sceneID="F4M-k8-fQz">
+            <objects>
+                <navigationController storyboardIdentifier="CoinNavigationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XwD-oe-xsN" customClass="CoinNavigationViewController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gTG-Ox-Dl7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqh-Oc-j28" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="-164"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="TOa-kZ-YD2">
+            <objects>
+                <viewController id="wd9-Lt-scS" userLabel="News" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R4i-mZ-cwC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVq-Gu-eiF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <connections>
+                                    <segue destination="tVM-Fl-eOj" kind="embed" id="v8m-VO-0FQ"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WVq-Gu-eiF" firstAttribute="leading" secondItem="oCO-oR-hhg" secondAttribute="leading" id="4XD-Ny-YB2"/>
+                            <constraint firstItem="WVq-Gu-eiF" firstAttribute="bottom" secondItem="oCO-oR-hhg" secondAttribute="bottom" id="5kO-p1-3fR"/>
+                            <constraint firstItem="WVq-Gu-eiF" firstAttribute="top" secondItem="R4i-mZ-cwC" secondAttribute="top" id="NLh-lM-sKt"/>
+                            <constraint firstItem="WVq-Gu-eiF" firstAttribute="trailing" secondItem="oCO-oR-hhg" secondAttribute="trailing" id="gh8-Kx-5js"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oCO-oR-hhg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="iconNews" id="QQf-cG-vtc" userLabel="News" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="A4B-Nu-OMy" id="IFo-U2-oAn"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B47-9p-dsp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="A4B-Nu-OMy" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="375" y="517"/>
+        </scene>
+        <!--News Navigation Controller-->
+        <scene sceneID="n2E-DO-Q2G">
+            <objects>
+                <navigationController storyboardIdentifier="NewsNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tVM-Fl-eOj" customClass="NewsNavigationController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AFa-uw-V4q">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3H-pB-fe1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="495"/>
+        </scene>
+        <!--Favorite-->
+        <scene sceneID="KqR-KZ-kjL">
+            <objects>
+                <viewController id="hfy-p0-aTZ" userLabel="Favorite" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hz4-S5-N1v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Za-Zi-7mQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <connections>
+                                    <segue destination="BR4-SD-MMZ" kind="embed" id="EMJ-yK-r0o"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Za-Zi-7mQ" firstAttribute="bottom" secondItem="0op-bC-kEk" secondAttribute="bottom" id="MXD-py-N7a"/>
+                            <constraint firstItem="6Za-Zi-7mQ" firstAttribute="leading" secondItem="0op-bC-kEk" secondAttribute="leading" id="X9N-PZ-VJd"/>
+                            <constraint firstItem="6Za-Zi-7mQ" firstAttribute="trailing" secondItem="0op-bC-kEk" secondAttribute="trailing" id="YQB-ve-evw"/>
+                            <constraint firstItem="6Za-Zi-7mQ" firstAttribute="top" secondItem="Hz4-S5-N1v" secondAttribute="top" id="gmQ-4L-bxF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0op-bC-kEk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorite" image="iconFavorite" id="B06-7k-slo" userLabel="Favorite" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="1PY-vS-2y7" id="MRk-AX-gSB"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OyX-UA-FGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="1PY-vS-2y7" userLabel="Animation" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-15" y="1174"/>
+        </scene>
+        <!--Favorite Navigation Controller-->
+        <scene sceneID="sf3-Z5-FsI">
+            <objects>
+                <navigationController storyboardIdentifier="FavoriteNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BR4-SD-MMZ" customClass="FavoriteNavigationController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L5U-6L-90L">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yId-gK-JLi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="650" y="1151"/>
+        </scene>
+        <!--Chart-->
+        <scene sceneID="a9h-ND-S2P">
+            <objects>
+                <viewController id="x7F-po-OMo" userLabel="Chart" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NO8-j8-483">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ms-rf-5aJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <segue destination="OFT-ax-5Ad" kind="embed" id="4mY-kf-jHc"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Ms-rf-5aJ" firstAttribute="leading" secondItem="ul0-UJ-uNX" secondAttribute="leading" id="4Dw-u7-xlz"/>
+                            <constraint firstItem="1Ms-rf-5aJ" firstAttribute="top" secondItem="NO8-j8-483" secondAttribute="top" id="9xh-Nh-YNZ"/>
+                            <constraint firstItem="1Ms-rf-5aJ" firstAttribute="bottom" secondItem="ul0-UJ-uNX" secondAttribute="bottom" id="Ido-cH-kGA"/>
+                            <constraint firstItem="1Ms-rf-5aJ" firstAttribute="trailing" secondItem="ul0-UJ-uNX" secondAttribute="trailing" id="VxR-i0-CF5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ul0-UJ-uNX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chart" image="iconFacebook" id="mRT-Tx-lz0" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="E7i-zz-0WM" id="khc-8r-8AJ"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQ7-Yf-jpl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="7g7-Q1-36S" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="1" green="0.4941176471" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="375" y="-1460"/>
+        </scene>
+        <!--Chart Navigation Controller-->
+        <scene sceneID="vTd-1W-f7T">
+            <objects>
+                <navigationController storyboardIdentifier="ChartNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OFT-ax-5Ad" customClass="ChartNavigationController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JRf-6l-cw0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JaJ-4A-wUL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="-1461"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NKq-0p-ApB">
+            <objects>
+                <viewController id="d8Q-RF-yxX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vAw-SZ-4fi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wIv-C2-1XP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7nz-qd-xiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1710" y="-1461"/>
+        </scene>
+        <!--Setup-->
+        <scene sceneID="E3p-Td-4iH">
+            <objects>
+                <viewController id="hc1-lw-l3d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pgu-hN-dnX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-tI-A4z">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <connections>
+                                    <segue destination="CXn-b3-LFH" kind="embed" id="tmX-V4-oSS"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fsQ-tI-A4z" firstAttribute="bottom" secondItem="EGU-sg-YzN" secondAttribute="bottom" id="3Bq-Vd-RkS"/>
+                            <constraint firstItem="fsQ-tI-A4z" firstAttribute="leading" secondItem="EGU-sg-YzN" secondAttribute="leading" id="7Jk-9X-jLw"/>
+                            <constraint firstItem="fsQ-tI-A4z" firstAttribute="trailing" secondItem="EGU-sg-YzN" secondAttribute="trailing" id="Nzu-zP-jxm"/>
+                            <constraint firstItem="fsQ-tI-A4z" firstAttribute="top" secondItem="Pgu-hN-dnX" secondAttribute="top" id="r3M-kY-NWl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EGU-sg-YzN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Setup" image="iconSetup" id="Th4-iA-3FZ" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="QQZ-lj-jsr" id="yUR-5i-CLV"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQz-9G-YJ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="QQZ-lj-jsr" userLabel="Animation" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="iconSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="textSelectedColor">
+                            <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-479" y="1834"/>
+        </scene>
+        <!--Setup Navigation Controller-->
+        <scene sceneID="tLa-LB-woo">
+            <objects>
+                <navigationController storyboardIdentifier="SetupNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CXn-b3-LFH" customClass="SetupNavigationController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZWB-ma-Ywg">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nms-De-Eld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="1834"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconBitcoin" width="29" height="29"/>
+        <image name="iconFacebook" width="29" height="29"/>
+        <image name="iconFavorite" width="29" height="29"/>
+        <image name="iconNews" width="29" height="29"/>
+        <image name="iconSetup" width="29" height="29"/>
+    </resources>
+</document>

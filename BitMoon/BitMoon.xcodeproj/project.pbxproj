@@ -1,0 +1,1524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156961F7B76A7399B45E3A3F /* Pods_BitMoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3E7071FE9522DE81CABEE1 /* Pods_BitMoonTests.framework */; };
+		5A1FE50880D711E4E5E288CA /* Pods_BitMoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DB2E5471D5CD96A0448384 /* Pods_BitMoonUITests.framework */; };
+		6D58FD90219FBF9A006B1FEE /* ServerInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D58FD8F219FBF9A006B1FEE /* ServerInfoData.swift */; };
+		6D649413217F540C00189AC1 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D649410217F540C00189AC1 /* HomeTableViewCell.swift */; };
+		6D649414217F540C00189AC1 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D649411217F540C00189AC1 /* HomeTableViewController.swift */; };
+		6D649415217F540C00189AC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D649412217F540C00189AC1 /* HomeViewController.swift */; };
+		6D649418217F541100189AC1 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D649416217F541100189AC1 /* GuideViewController.swift */; };
+		6D649419217F541100189AC1 /* Guide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D649417217F541100189AC1 /* Guide.storyboard */; };
+		6D64941B217F541800189AC1 /* DatabaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D64941A217F541800189AC1 /* DatabaseTableViewController.swift */; };
+		6D64941D217F541D00189AC1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D64941C217F541D00189AC1 /* AccountViewController.swift */; };
+		6D649420217F55BB00189AC1 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D64941F217F55BB00189AC1 /* RegistViewController.swift */; };
+		D2131DCA219EA2D600BEF810 /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2131DC9219EA2D600BEF810 /* CoinTableViewCell.swift */; };
+		D216CD9D21E414A3009E106C /* SetupContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CD9C21E414A3009E106C /* SetupContainerViewController.swift */; };
+		D216CD9F21E414C6009E106C /* SetupVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CD9E21E414C6009E106C /* SetupVersionViewController.swift */; };
+		D216CDA121E414E6009E106C /* SetupDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CDA021E414E6009E106C /* SetupDataViewController.swift */; };
+		D216CDA321E41502009E106C /* SetupCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CDA221E41502009E106C /* SetupCompanyViewController.swift */; };
+		D216CDA521E41518009E106C /* SetupWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CDA421E41518009E106C /* SetupWebViewController.swift */; };
+		D216CDA721E41638009E106C /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CDA621E41638009E106C /* SetupViewController.swift */; };
+		D216CDAA21E41B9D009E106C /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216CDA921E41B9D009E106C /* EmptySegue.swift */; };
+		D216CDB021E495E1009E106C /* Coin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D216CDB221E495E1009E106C /* Coin.storyboard */; };
+		D22143B521AFB366005B0767 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22143B421AFB366005B0767 /* ImageUtil.swift */; };
+		D22143B721AFBF4C005B0767 /* DefineColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22143B621AFBF4C005B0767 /* DefineColors.swift */; };
+		D22143B921AFC02B005B0767 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22143B821AFC02B005B0767 /* CoinData.swift */; };
+		D2239E7321AD1820008EE207 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2239E7221AD1820008EE207 /* Event.storyboard */; };
+		D2239E7521AD1830008EE207 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2239E7421AD1830008EE207 /* EventTableViewController.swift */; };
+		D2239E7921AD18B3008EE207 /* CoinInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2239E7821AD18B3008EE207 /* CoinInfoViewController.swift */; };
+		D22648FE2179688400F3D4A2 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D22648FD2179688400F3D4A2 /* awsconfiguration.json */; };
+		D22649152179A81600F3D4A2 /* DefineStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22649142179A81600F3D4A2 /* DefineStrings.swift */; };
+		D226EA6C21B4BF4B0011292A /* SyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D226EA6B21B4BF4B0011292A /* SyncManager.swift */; };
+		D226EA6E21B4C1210011292A /* CoinMarketCapListingsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D226EA6D21B4C1210011292A /* CoinMarketCapListingsParser.swift */; };
+		D226EA7021B4C5220011292A /* CoinMarketCalCoinsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D226EA6F21B4C5220011292A /* CoinMarketCalCoinsParser.swift */; };
+		D239CAF321D4498C00CA52C2 /* DefineNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239CAF221D4498C00CA52C2 /* DefineNumbers.swift */; };
+		D23B717D21BDF4E900D3D998 /* totalvolfullParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B717C21BDF4E900D3D998 /* totalvolfullParser.swift */; };
+		D23E06CB21BF4FD1009B3F4E /* FilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E06CA21BF4FD1009B3F4E /* FilterData.swift */; };
+		D23E8FF421E580C800E04270 /* opensourcelicense.html in Resources */ = {isa = PBXBuildFile; fileRef = D23E8FF321E580C800E04270 /* opensourcelicense.html */; };
+		D24E88A321A4CF7A00CA44BF /* ServiceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E88A221A4CF7A00CA44BF /* ServiceParser.swift */; };
+		D24E88B621A515B100CA44BF /* KeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E88B521A515B100CA44BF /* KeyData.swift */; };
+		D24E88B921A5167000CA44BF /* ChartNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E88B821A5167000CA44BF /* ChartNavigationController.swift */; };
+		D24E88BB21A5168100CA44BF /* ChartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E88BA21A5168100CA44BF /* ChartTableViewController.swift */; };
+		D24E88BD21A516A200CA44BF /* Chart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24E88BC21A516A200CA44BF /* Chart.storyboard */; };
+		D24E88BF21A51BE500CA44BF /* NomicsMarketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E88BE21A51BE500CA44BF /* NomicsMarketParser.swift */; };
+		D24E88C121A51C4A00CA44BF /* MarketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E88C021A51C4A00CA44BF /* MarketData.swift */; };
+		D252E2DD21CCACE0000CA92F /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D252E2DC21CCACE0000CA92F /* Web.storyboard */; };
+		D252E2DF21CCACEE000CA92F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252E2DE21CCACEE000CA92F /* WebViewController.swift */; };
+		D253DE8B21B4E73D00F28ABF /* CoinMarketCalAuthParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DE8A21B4E73D00F28ABF /* CoinMarketCalAuthParser.swift */; };
+		D25CB7A521CA15F500E9ACEB /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25CB7A421CA15F400E9ACEB /* UIViewExtention.swift */; };
+		D26D33682181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D335F2181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.m */; };
+		D26D33692181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D33622181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.m */; };
+		D26D336A2181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D33632181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.m */; };
+		D26D336B2181A9B500DD448F /* ProfileTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D33662181A9B500DD448F /* ProfileTable.swift */; };
+		D26D336C2181A9B500DD448F /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D33672181A9B500DD448F /* Profiles.swift */; };
+		D27AA6D521771D5300FF0EA8 /* Pods_BitMoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27AA6D421771D5300FF0EA8 /* Pods_BitMoon.framework */; };
+		D27CC6282177072A00BF31A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27CC6272177072A00BF31A9 /* AppDelegate.swift */; };
+		D27CC62D2177072A00BF31A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27CC62B2177072A00BF31A9 /* Main.storyboard */; };
+		D27CC62F2177072B00BF31A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27CC62E2177072B00BF31A9 /* Assets.xcassets */; };
+		D27CC6322177072B00BF31A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27CC6302177072B00BF31A9 /* LaunchScreen.storyboard */; };
+		D27CC63D2177072B00BF31A9 /* BitMoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27CC63C2177072B00BF31A9 /* BitMoonTests.swift */; };
+		D27CC6482177072B00BF31A9 /* BitMoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27CC6472177072B00BF31A9 /* BitMoonUITests.swift */; };
+		D2828AD121E319F500FA6322 /* SetupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2828AD021E319F500FA6322 /* SetupNavigationController.swift */; };
+		D2828AD321E31A1100FA6322 /* SetupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2828AD221E31A1100FA6322 /* SetupTableViewController.swift */; };
+		D2828AD521E31A1B00FA6322 /* Setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2828AD421E31A1B00FA6322 /* Setup.storyboard */; };
+		D2828AF421E31F8F00FA6322 /* setup.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2828AF321E31F8F00FA6322 /* setup.plist */; };
+		D2828AF621E3212200FA6322 /* SetupDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2828AF521E3212200FA6322 /* SetupDataParser.swift */; };
+		D2828AF821E32DDD00FA6322 /* SetupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2828AF721E32DDD00FA6322 /* SetupData.swift */; };
+		D2828AFA21E3368200FA6322 /* SetupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2828AF921E3368200FA6322 /* SetupTableViewCell.swift */; };
+		D285732321B0F1BD007CEAE2 /* CoinMarketCapTickerParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285732221B0F1BD007CEAE2 /* CoinMarketCapTickerParser.swift */; };
+		D288EF6121C21950007B7A79 /* MarketCalCoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF6021C2194F007B7A79 /* MarketCalCoinData.swift */; };
+		D288EF6421C2494E007B7A79 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D288EF6321C2494E007B7A79 /* News.storyboard */; };
+		D288EF6621C24962007B7A79 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF6521C24962007B7A79 /* NewsTableViewController.swift */; };
+		D288EF6821C2496E007B7A79 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF6721C2496E007B7A79 /* NewsTableViewCell.swift */; };
+		D288EF6A21C2497B007B7A79 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF6921C2497B007B7A79 /* NewsViewController.swift */; };
+		D288EF6C21C24A57007B7A79 /* NewsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF6B21C24A57007B7A79 /* NewsNavigationController.swift */; };
+		D288EF6E21C24B5C007B7A79 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288EF6D21C24B5C007B7A79 /* NewsData.swift */; };
+		D28939ED21A77E0200B44148 /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28939EC21A77E0200B44148 /* CoinViewController.swift */; };
+		D28939F921A797D100B44148 /* CustomLayoutSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28939F621A797D100B44148 /* CustomLayoutSettings.swift */; };
+		D28939FA21A797D100B44148 /* CustomLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28939F721A797D100B44148 /* CustomLayoutAttributes.swift */; };
+		D28939FB21A797D100B44148 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28939F821A797D100B44148 /* CustomLayout.swift */; };
+		D291B0ED21C7241100F4DA81 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B0EC21C7241100F4DA81 /* FavoriteTableViewCell.swift */; };
+		D291B12E21C729F300F4DA81 /* bitMoonCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D291B12C21C729F300F4DA81 /* bitMoonCoreData.xcdatamodeld */; };
+		D291B13021C72B6500F4DA81 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B12F21C72B6500F4DA81 /* CoreDataManager.swift */; };
+		D291B13221C7365400F4DA81 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291B13121C7365400F4DA81 /* PurchaseManager.swift */; };
+		D2A744C821C1CAD9005E8F03 /* pricemultifullParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A744C721C1CAD9005E8F03 /* pricemultifullParser.swift */; };
+		D2A744CA21C1CC02005E8F03 /* PriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A744C921C1CC02005E8F03 /* PriceData.swift */; };
+		D2DACC5621C334AE001C792C /* newsListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DACC5521C334AE001C792C /* newsListParser.swift */; };
+		D2DACC5921C36A28001C792C /* Favorite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DACC5821C36A28001C792C /* Favorite.storyboard */; };
+		D2DACC5B21C36A3E001C792C /* FavoriteNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DACC5A21C36A3E001C792C /* FavoriteNavigationController.swift */; };
+		D2DACC5D21C36A65001C792C /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DACC5C21C36A65001C792C /* FavoriteTableViewController.swift */; };
+		D2DF76B521C08316006814B3 /* histodayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF76B421C08316006814B3 /* histodayParser.swift */; };
+		D2DF76B721C083D6006814B3 /* HistoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF76B621C083D6006814B3 /* HistoryData.swift */; };
+		D2DFFFE9219A690400131F85 /* FearNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DFFFE8219A690400131F85 /* FearNavigationController.swift */; };
+		D2DFFFED219A693500131F85 /* Fear.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DFFFEC219A693500131F85 /* Fear.storyboard */; };
+		D2E3586C21B0CB0000DE066F /* CoinMarketCalEventParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3586B21B0CB0000DE066F /* CoinMarketCalEventParser.swift */; };
+		D2E4E3B921AE77D9000E8972 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4E3B821AE77D9000E8972 /* EventData.swift */; };
+		D2E4E3BB21AE7C55000E8972 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4E3BA21AE7C55000E8972 /* EventTableViewCell.swift */; };
+		D2E4E3BD21AE7FCC000E8972 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E4E3BC21AE7FCC000E8972 /* EventInfoViewController.swift */; };
+		D2EA0E67219BB10B005277C0 /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2EA0E66219BB10B005277C0 /* AAJSFiles.bundle */; };
+		D2EA0E71219BB47D005277C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2EA0E73219BB47D005277C0 /* Localizable.strings */; };
+		D2EA0E76219BBCFA005277C0 /* FearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E75219BBCFA005277C0 /* FearTableViewController.swift */; };
+		D2EA0E7A219BBFB2005277C0 /* FearHtmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E79219BBFB2005277C0 /* FearHtmlParser.swift */; };
+		D2EA0E7C219BC0B2005277C0 /* TurtleHtmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E7B219BC0B2005277C0 /* TurtleHtmlParser.swift */; };
+		D2EA0E7F219BC18E005277C0 /* TurtleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E7E219BC18E005277C0 /* TurtleParser.m */; };
+		D2EA0E83219BD313005277C0 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E82219BD313005277C0 /* ChartData.swift */; };
+		D2EA0E89219BE99F005277C0 /* CoinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E88219BE99E005277C0 /* CoinTableViewController.swift */; };
+		D2EA0E8E219BED30005277C0 /* CoinNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0E8D219BED30005277C0 /* CoinNavigationViewController.swift */; };
+		D2F1615021AD1B4F00ABE9EB /* CoinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1614F21AD1B4F00ABE9EB /* CoinDetailViewController.swift */; };
+		D2F1615221AD28F100ABE9EB /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1615121AD28F100ABE9EB /* TokenData.swift */; };
+		D2FFB8B721AE1C04006E7E43 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFB8B621AE1C04006E7E43 /* ErrorManager.swift */; };
+		D2FFB8BA21AE1CA9006E7E43 /* error.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2FFB8B921AE1CA9006E7E43 /* error.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27CC6392177072B00BF31A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27CC61C2177072900BF31A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27CC6232177072A00BF31A9;
+			remoteInfo = BitMoon;
+		};
+		D27CC6442177072B00BF31A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27CC61C2177072900BF31A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27CC6232177072A00BF31A9;
+			remoteInfo = BitMoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E096D25260C5AFD8575765 /* Pods-BitMoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitMoon/Pods-BitMoon.release.xcconfig"; sourceTree = "<group>"; };
+		3FD789546377485E78E1C133 /* Pods_BitMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DB2E5471D5CD96A0448384 /* Pods_BitMoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitMoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6352D9E7C2D7DEFB74E66AA7 /* Pods-BitMoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMoonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitMoonUITests/Pods-BitMoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D58FD8F219FBF9A006B1FEE /* ServerInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerInfoData.swift; sourceTree = "<group>"; };
+		6D649410217F540C00189AC1 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewCell.swift; path = BitMoon/ViewControllers/HomeViewControllers/HomeTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		6D649411217F540C00189AC1 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewController.swift; path = BitMoon/ViewControllers/HomeViewControllers/HomeTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		6D649412217F540C00189AC1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = BitMoon/ViewControllers/HomeViewControllers/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		6D649416217F541100189AC1 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuideViewController.swift; path = BitMoon/ViewControllers/GuideViewControllers/GuideViewController.swift; sourceTree = SOURCE_ROOT; };
+		6D649417217F541100189AC1 /* Guide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Guide.storyboard; path = BitMoon/ViewControllers/GuideViewControllers/Guide.storyboard; sourceTree = SOURCE_ROOT; };
+		6D64941A217F541800189AC1 /* DatabaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseTableViewController.swift; path = BitMoon/ViewControllers/DatabaseViewControllers/DatabaseTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		6D64941C217F541D00189AC1 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = BitMoon/ViewControllers/AccountViewControllers/AccountViewController.swift; sourceTree = SOURCE_ROOT; };
+		6D64941F217F55BB00189AC1 /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistViewController.swift; path = BitMoon/ViewControllers/RegistViewControllers/RegistViewController.swift; sourceTree = SOURCE_ROOT; };
+		75D213BB30B795C5303FCB28 /* Pods-BitMoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMoonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitMoonUITests/Pods-BitMoonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EAF6F96E7DCDB04E82B6D17 /* Pods-BitMoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitMoon/Pods-BitMoon.debug.xcconfig"; sourceTree = "<group>"; };
+		906620289836D141841D4EC4 /* Pods-BitMoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitMoonTests/Pods-BitMoonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E457FF042F2FDD904C181DB /* Pods-BitMoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitMoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitMoonTests/Pods-BitMoonTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF3E7071FE9522DE81CABEE1 /* Pods_BitMoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitMoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2131DC9219EA2D600BEF810 /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		D216CD9C21E414A3009E106C /* SetupContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupContainerViewController.swift; sourceTree = "<group>"; };
+		D216CD9E21E414C6009E106C /* SetupVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupVersionViewController.swift; sourceTree = "<group>"; };
+		D216CDA021E414E6009E106C /* SetupDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupDataViewController.swift; sourceTree = "<group>"; };
+		D216CDA221E41502009E106C /* SetupCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupCompanyViewController.swift; sourceTree = "<group>"; };
+		D216CDA421E41518009E106C /* SetupWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupWebViewController.swift; sourceTree = "<group>"; };
+		D216CDA621E41638009E106C /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		D216CDA921E41B9D009E106C /* EmptySegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		D216CDAC21E49206009E106C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D216CDB121E495E1009E106C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Coin.storyboard; sourceTree = "<group>"; };
+		D216CDB421E495EB009E106C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Coin.strings; sourceTree = "<group>"; };
+		D22143B421AFB366005B0767 /* ImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
+		D22143B621AFBF4C005B0767 /* DefineColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineColors.swift; sourceTree = "<group>"; };
+		D22143B821AFC02B005B0767 /* CoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		D2239E7221AD1820008EE207 /* Event.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Event.storyboard; sourceTree = "<group>"; };
+		D2239E7421AD1830008EE207 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		D2239E7821AD18B3008EE207 /* CoinInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinInfoViewController.swift; sourceTree = "<group>"; };
+		D22648FD2179688400F3D4A2 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		D22649142179A81600F3D4A2 /* DefineStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineStrings.swift; sourceTree = "<group>"; };
+		D226EA6B21B4BF4B0011292A /* SyncManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncManager.swift; sourceTree = "<group>"; };
+		D226EA6D21B4C1210011292A /* CoinMarketCapListingsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketCapListingsParser.swift; sourceTree = "<group>"; };
+		D226EA6F21B4C5220011292A /* CoinMarketCalCoinsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketCalCoinsParser.swift; sourceTree = "<group>"; };
+		D239CAF221D4498C00CA52C2 /* DefineNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineNumbers.swift; sourceTree = "<group>"; };
+		D23B717C21BDF4E900D3D998 /* totalvolfullParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = totalvolfullParser.swift; sourceTree = "<group>"; };
+		D23E06CA21BF4FD1009B3F4E /* FilterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterData.swift; sourceTree = "<group>"; };
+		D23E8FF321E580C800E04270 /* opensourcelicense.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = opensourcelicense.html; sourceTree = "<group>"; };
+		D24E88A221A4CF7A00CA44BF /* ServiceParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceParser.swift; sourceTree = "<group>"; };
+		D24E88B521A515B100CA44BF /* KeyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyData.swift; sourceTree = "<group>"; };
+		D24E88B821A5167000CA44BF /* ChartNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartNavigationController.swift; sourceTree = "<group>"; };
+		D24E88BA21A5168100CA44BF /* ChartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableViewController.swift; sourceTree = "<group>"; };
+		D24E88BC21A516A200CA44BF /* Chart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chart.storyboard; sourceTree = "<group>"; };
+		D24E88BE21A51BE500CA44BF /* NomicsMarketParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomicsMarketParser.swift; sourceTree = "<group>"; };
+		D24E88C021A51C4A00CA44BF /* MarketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketData.swift; sourceTree = "<group>"; };
+		D252E2DC21CCACE0000CA92F /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
+		D252E2DE21CCACEE000CA92F /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D253DE8A21B4E73D00F28ABF /* CoinMarketCalAuthParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketCalAuthParser.swift; sourceTree = "<group>"; };
+		D25CB7A421CA15F400E9ACEB /* UIViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
+		D26D335E2181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_HWVW65QROJ_RequestSchema.h; sourceTree = "<group>"; };
+		D26D335F2181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_HWVW65QROJ_ResponseSchema.m; sourceTree = "<group>"; };
+		D26D33602181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_HWVW65QROJ_ProfileMobileHubClient.h; sourceTree = "<group>"; };
+		D26D33612181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_HWVW65QROJ_ResponseSchema.h; sourceTree = "<group>"; };
+		D26D33622181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_HWVW65QROJ_RequestSchema.m; sourceTree = "<group>"; };
+		D26D33632181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_HWVW65QROJ_ProfileMobileHubClient.m; sourceTree = "<group>"; };
+		D26D33662181A9B500DD448F /* ProfileTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTable.swift; sourceTree = "<group>"; };
+		D26D33672181A9B500DD448F /* Profiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		D27AA6CB2177125300FF0EA8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		D27AA6CC2177125300FF0EA8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D27AA6D421771D5300FF0EA8 /* Pods_BitMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BitMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27CC6242177072A00BF31A9 /* BitMoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitMoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27CC6272177072A00BF31A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27CC62C2177072A00BF31A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27CC62E2177072B00BF31A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27CC6312177072B00BF31A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27CC6332177072B00BF31A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27CC6382177072B00BF31A9 /* BitMoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitMoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27CC63C2177072B00BF31A9 /* BitMoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMoonTests.swift; sourceTree = "<group>"; };
+		D27CC63E2177072B00BF31A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27CC6432177072B00BF31A9 /* BitMoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitMoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27CC6472177072B00BF31A9 /* BitMoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMoonUITests.swift; sourceTree = "<group>"; };
+		D27CC6492177072B00BF31A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2828AD021E319F500FA6322 /* SetupNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupNavigationController.swift; sourceTree = "<group>"; };
+		D2828AD221E31A1100FA6322 /* SetupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTableViewController.swift; sourceTree = "<group>"; };
+		D2828AD421E31A1B00FA6322 /* Setup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setup.storyboard; sourceTree = "<group>"; };
+		D2828AF321E31F8F00FA6322 /* setup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setup.plist; sourceTree = "<group>"; };
+		D2828AF521E3212200FA6322 /* SetupDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupDataParser.swift; sourceTree = "<group>"; };
+		D2828AF721E32DDD00FA6322 /* SetupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupData.swift; sourceTree = "<group>"; };
+		D2828AF921E3368200FA6322 /* SetupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTableViewCell.swift; sourceTree = "<group>"; };
+		D285732221B0F1BD007CEAE2 /* CoinMarketCapTickerParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketCapTickerParser.swift; sourceTree = "<group>"; };
+		D288EF6021C2194F007B7A79 /* MarketCalCoinData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketCalCoinData.swift; sourceTree = "<group>"; };
+		D288EF6321C2494E007B7A79 /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		D288EF6521C24962007B7A79 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		D288EF6721C2496E007B7A79 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		D288EF6921C2497B007B7A79 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		D288EF6B21C24A57007B7A79 /* NewsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsNavigationController.swift; sourceTree = "<group>"; };
+		D288EF6D21C24B5C007B7A79 /* NewsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		D28939EC21A77E0200B44148 /* CoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
+		D28939F621A797D100B44148 /* CustomLayoutSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayoutSettings.swift; sourceTree = "<group>"; };
+		D28939F721A797D100B44148 /* CustomLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayoutAttributes.swift; sourceTree = "<group>"; };
+		D28939F821A797D100B44148 /* CustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		D291B0EC21C7241100F4DA81 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		D291B12D21C729F300F4DA81 /* bitMoonCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bitMoonCoreData.xcdatamodel; sourceTree = "<group>"; };
+		D291B12F21C72B6500F4DA81 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D291B13121C7365400F4DA81 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		D2A744C721C1CAD9005E8F03 /* pricemultifullParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pricemultifullParser.swift; sourceTree = "<group>"; };
+		D2A744C921C1CC02005E8F03 /* PriceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceData.swift; sourceTree = "<group>"; };
+		D2DACC5521C334AE001C792C /* newsListParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newsListParser.swift; sourceTree = "<group>"; };
+		D2DACC5821C36A28001C792C /* Favorite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorite.storyboard; sourceTree = "<group>"; };
+		D2DACC5A21C36A3E001C792C /* FavoriteNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteNavigationController.swift; sourceTree = "<group>"; };
+		D2DACC5C21C36A65001C792C /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		D2DF76B421C08316006814B3 /* histodayParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = histodayParser.swift; sourceTree = "<group>"; };
+		D2DF76B621C083D6006814B3 /* HistoryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryData.swift; sourceTree = "<group>"; };
+		D2DFFFE8219A690400131F85 /* FearNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearNavigationController.swift; sourceTree = "<group>"; };
+		D2DFFFEC219A693500131F85 /* Fear.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fear.storyboard; sourceTree = "<group>"; };
+		D2E3586B21B0CB0000DE066F /* CoinMarketCalEventParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketCalEventParser.swift; sourceTree = "<group>"; };
+		D2E4E3B821AE77D9000E8972 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		D2E4E3BA21AE7C55000E8972 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		D2E4E3BC21AE7FCC000E8972 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		D2EA0E66219BB10B005277C0 /* AAJSFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAJSFiles.bundle; sourceTree = "<group>"; };
+		D2EA0E72219BB47D005277C0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D2EA0E74219BB47E005277C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D2EA0E75219BBCFA005277C0 /* FearTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearTableViewController.swift; sourceTree = "<group>"; };
+		D2EA0E79219BBFB2005277C0 /* FearHtmlParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FearHtmlParser.swift; sourceTree = "<group>"; };
+		D2EA0E7B219BC0B2005277C0 /* TurtleHtmlParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurtleHtmlParser.swift; sourceTree = "<group>"; };
+		D2EA0E7D219BC18E005277C0 /* TurtleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleParser.h; sourceTree = "<group>"; };
+		D2EA0E7E219BC18E005277C0 /* TurtleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleParser.m; sourceTree = "<group>"; };
+		D2EA0E82219BD313005277C0 /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		D2EA0E86219BE27B005277C0 /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		D2EA0E88219BE99E005277C0 /* CoinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewController.swift; sourceTree = "<group>"; };
+		D2EA0E8D219BED30005277C0 /* CoinNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNavigationViewController.swift; sourceTree = "<group>"; };
+		D2F1614F21AD1B4F00ABE9EB /* CoinDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewController.swift; sourceTree = "<group>"; };
+		D2F1615121AD28F100ABE9EB /* TokenData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenData.swift; sourceTree = "<group>"; };
+		D2FFB8B621AE1C04006E7E43 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		D2FFB8B921AE1CA9006E7E43 /* error.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = error.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27CC6212177072A00BF31A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27AA6D521771D5300FF0EA8 /* Pods_BitMoon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CC6352177072B00BF31A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156961F7B76A7399B45E3A3F /* Pods_BitMoonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CC6402177072B00BF31A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1FE50880D711E4E5E288CA /* Pods_BitMoonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17658217EBE518AD50983BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27AA6D421771D5300FF0EA8 /* Pods_BitMoon.framework */,
+				3FD789546377485E78E1C133 /* Pods_BitMoon.framework */,
+				CF3E7071FE9522DE81CABEE1 /* Pods_BitMoonTests.framework */,
+				41DB2E5471D5CD96A0448384 /* Pods_BitMoonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D649408217F535200189AC1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D239CAF421D4893A00CA52C2 /* SetupViewControllers */,
+				D252E2DB21CCACD3000CA92F /* WebViewControllers */,
+				D2DACC5721C369FF001C792C /* FavoriteViewControllers */,
+				D288EF6221C2493D007B7A79 /* NewsViewControllers */,
+				D2239E7121AD180A008EE207 /* EventViewControllers */,
+				D24E88B721A5164F00CA44BF /* ChartViewControllers */,
+				D2EA0E87219BE97E005277C0 /* CoinViewControllers */,
+				D2DFFFE4219A66E600131F85 /* FearViewControllers */,
+				6D64940C217F53EE00189AC1 /* AccountViewControllers */,
+				6D64940F217F540100189AC1 /* HomeViewControllers */,
+				6D64940E217F53FB00189AC1 /* GuideViewControllers */,
+				6D64940D217F53F200189AC1 /* DatabaseViewControllers */,
+				6D64941E217F559F00189AC1 /* RegistViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6D64940C217F53EE00189AC1 /* AccountViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D64941C217F541D00189AC1 /* AccountViewController.swift */,
+			);
+			path = AccountViewControllers;
+			sourceTree = "<group>";
+		};
+		6D64940D217F53F200189AC1 /* DatabaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D64941A217F541800189AC1 /* DatabaseTableViewController.swift */,
+			);
+			path = DatabaseViewControllers;
+			sourceTree = "<group>";
+		};
+		6D64940E217F53FB00189AC1 /* GuideViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D649417217F541100189AC1 /* Guide.storyboard */,
+				6D649416217F541100189AC1 /* GuideViewController.swift */,
+			);
+			path = GuideViewControllers;
+			sourceTree = "<group>";
+		};
+		6D64940F217F540100189AC1 /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D649410217F540C00189AC1 /* HomeTableViewCell.swift */,
+				6D649411217F540C00189AC1 /* HomeTableViewController.swift */,
+				6D649412217F540C00189AC1 /* HomeViewController.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		6D64941E217F559F00189AC1 /* RegistViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D64941F217F55BB00189AC1 /* RegistViewController.swift */,
+			);
+			path = RegistViewControllers;
+			sourceTree = "<group>";
+		};
+		94EE891B9BD5CF70CFBDA17A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EAF6F96E7DCDB04E82B6D17 /* Pods-BitMoon.debug.xcconfig */,
+				10E096D25260C5AFD8575765 /* Pods-BitMoon.release.xcconfig */,
+				906620289836D141841D4EC4 /* Pods-BitMoonTests.debug.xcconfig */,
+				9E457FF042F2FDD904C181DB /* Pods-BitMoonTests.release.xcconfig */,
+				6352D9E7C2D7DEFB74E66AA7 /* Pods-BitMoonUITests.debug.xcconfig */,
+				75D213BB30B795C5303FCB28 /* Pods-BitMoonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D216CDA821E41B86009E106C /* Performs */ = {
+			isa = PBXGroup;
+			children = (
+				D216CDA921E41B9D009E106C /* EmptySegue.swift */,
+			);
+			path = Performs;
+			sourceTree = "<group>";
+		};
+		D22143B321AFB34E005B0767 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D22143B421AFB366005B0767 /* ImageUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D2239E7121AD180A008EE207 /* EventViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2239E7221AD1820008EE207 /* Event.storyboard */,
+				D2239E7421AD1830008EE207 /* EventTableViewController.swift */,
+				D2E4E3BA21AE7C55000E8972 /* EventTableViewCell.swift */,
+				D2E4E3BC21AE7FCC000E8972 /* EventInfoViewController.swift */,
+			);
+			path = EventViewControllers;
+			sourceTree = "<group>";
+		};
+		D22648FB2179686500F3D4A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D23E8FF021E5802A00E04270 /* Htmls */,
+				D291B12B21C729DC00F4DA81 /* CoreDatas */,
+				D2FFB8B821AE1C95006E7E43 /* Lists */,
+				D2EA0E68219BB257005277C0 /* Strings */,
+				D2EA0E65219BB0FD005277C0 /* Bundles */,
+				D22648FC2179686D00F3D4A2 /* Jsons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D22648FC2179686D00F3D4A2 /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				D22648FD2179688400F3D4A2 /* awsconfiguration.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		D22649082179996500F3D4A2 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				D22143B621AFBF4C005B0767 /* DefineColors.swift */,
+				D239CAF221D4498C00CA52C2 /* DefineNumbers.swift */,
+				D22649142179A81600F3D4A2 /* DefineStrings.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		D239CAF421D4893A00CA52C2 /* SetupViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2828AD421E31A1B00FA6322 /* Setup.storyboard */,
+				D2828AD021E319F500FA6322 /* SetupNavigationController.swift */,
+				D2828AD221E31A1100FA6322 /* SetupTableViewController.swift */,
+				D2828AF921E3368200FA6322 /* SetupTableViewCell.swift */,
+				D216CD9C21E414A3009E106C /* SetupContainerViewController.swift */,
+				D216CDA621E41638009E106C /* SetupViewController.swift */,
+				D216CD9E21E414C6009E106C /* SetupVersionViewController.swift */,
+				D216CDA021E414E6009E106C /* SetupDataViewController.swift */,
+				D216CDA221E41502009E106C /* SetupCompanyViewController.swift */,
+				D216CDA421E41518009E106C /* SetupWebViewController.swift */,
+			);
+			path = SetupViewControllers;
+			sourceTree = "<group>";
+		};
+		D23E8FF021E5802A00E04270 /* Htmls */ = {
+			isa = PBXGroup;
+			children = (
+				D23E8FF321E580C800E04270 /* opensourcelicense.html */,
+			);
+			path = Htmls;
+			sourceTree = "<group>";
+		};
+		D24E88B721A5164F00CA44BF /* ChartViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D24E88BC21A516A200CA44BF /* Chart.storyboard */,
+				D24E88B821A5167000CA44BF /* ChartNavigationController.swift */,
+				D24E88BA21A5168100CA44BF /* ChartTableViewController.swift */,
+			);
+			path = ChartViewControllers;
+			sourceTree = "<group>";
+		};
+		D252E2DB21CCACD3000CA92F /* WebViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D252E2DC21CCACE0000CA92F /* Web.storyboard */,
+				D252E2DE21CCACEE000CA92F /* WebViewController.swift */,
+			);
+			path = WebViewControllers;
+			sourceTree = "<group>";
+		};
+		D25CB7A321CA159F00E9ACEB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D25CB7A421CA15F400E9ACEB /* UIViewExtention.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D26D335D2181A9B500DD448F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D26D335E2181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.h */,
+				D26D335F2181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.m */,
+				D26D33602181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.h */,
+				D26D33612181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.h */,
+				D26D33622181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.m */,
+				D26D33632181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		D26D33642181A9B500DD448F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D26D33652181A9B500DD448F /* NoSQL */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D26D33652181A9B500DD448F /* NoSQL */ = {
+			isa = PBXGroup;
+			children = (
+				D26D33662181A9B500DD448F /* ProfileTable.swift */,
+				D26D33672181A9B500DD448F /* Profiles.swift */,
+			);
+			path = NoSQL;
+			sourceTree = "<group>";
+		};
+		D272BDB921804700006BF1B9 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				D26D335D2181A9B500DD448F /* Api */,
+				D26D33642181A9B500DD448F /* Models */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		D27CC61B2177072900BF31A9 = {
+			isa = PBXGroup;
+			children = (
+				D27CC6262177072A00BF31A9 /* BitMoon */,
+				D27CC63B2177072B00BF31A9 /* BitMoonTests */,
+				D27CC6462177072B00BF31A9 /* BitMoonUITests */,
+				D27CC6252177072A00BF31A9 /* Products */,
+				94EE891B9BD5CF70CFBDA17A /* Pods */,
+				17658217EBE518AD50983BB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D27CC6252177072A00BF31A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27CC6242177072A00BF31A9 /* BitMoon.app */,
+				D27CC6382177072B00BF31A9 /* BitMoonTests.xctest */,
+				D27CC6432177072B00BF31A9 /* BitMoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27CC6262177072A00BF31A9 /* BitMoon */ = {
+			isa = PBXGroup;
+			children = (
+				D216CDA821E41B86009E106C /* Performs */,
+				D25CB7A321CA159F00E9ACEB /* Categories */,
+				D22143B321AFB34E005B0767 /* Utils */,
+				D28939F421A797BE00B44148 /* Thirds */,
+				D2EA0E84219BE27B005277C0 /* Supporting Files */,
+				D29007A3219B962F007AFE2D /* Datas */,
+				D2DFFFEE219A6E7800131F85 /* Parsers */,
+				D2FFB8B521AE1BED006E7E43 /* Managers */,
+				6D649408217F535200189AC1 /* ViewControllers */,
+				D22649082179996500F3D4A2 /* Commons */,
+				D272BDB921804700006BF1B9 /* Gateways */,
+				D22648FB2179686500F3D4A2 /* Resources */,
+				D27CC6272177072A00BF31A9 /* AppDelegate.swift */,
+				D27CC62B2177072A00BF31A9 /* Main.storyboard */,
+				D27CC62E2177072B00BF31A9 /* Assets.xcassets */,
+				D27CC6302177072B00BF31A9 /* LaunchScreen.storyboard */,
+				D27CC6332177072B00BF31A9 /* Info.plist */,
+			);
+			path = BitMoon;
+			sourceTree = "<group>";
+		};
+		D27CC63B2177072B00BF31A9 /* BitMoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27CC63C2177072B00BF31A9 /* BitMoonTests.swift */,
+				D27CC63E2177072B00BF31A9 /* Info.plist */,
+			);
+			path = BitMoonTests;
+			sourceTree = "<group>";
+		};
+		D27CC6462177072B00BF31A9 /* BitMoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D27CC6472177072B00BF31A9 /* BitMoonUITests.swift */,
+				D27CC6492177072B00BF31A9 /* Info.plist */,
+			);
+			path = BitMoonUITests;
+			sourceTree = "<group>";
+		};
+		D288EF6221C2493D007B7A79 /* NewsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D288EF6321C2494E007B7A79 /* News.storyboard */,
+				D288EF6B21C24A57007B7A79 /* NewsNavigationController.swift */,
+				D288EF6521C24962007B7A79 /* NewsTableViewController.swift */,
+				D288EF6721C2496E007B7A79 /* NewsTableViewCell.swift */,
+				D288EF6921C2497B007B7A79 /* NewsViewController.swift */,
+			);
+			path = NewsViewControllers;
+			sourceTree = "<group>";
+		};
+		D28939F421A797BE00B44148 /* Thirds */ = {
+			isa = PBXGroup;
+			children = (
+				D28939F521A797D100B44148 /* CustomLayout */,
+			);
+			path = Thirds;
+			sourceTree = "<group>";
+		};
+		D28939F521A797D100B44148 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D28939F621A797D100B44148 /* CustomLayoutSettings.swift */,
+				D28939F721A797D100B44148 /* CustomLayoutAttributes.swift */,
+				D28939F821A797D100B44148 /* CustomLayout.swift */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		D29007A3219B962F007AFE2D /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				D22143B821AFC02B005B0767 /* CoinData.swift */,
+				D24E88B521A515B100CA44BF /* KeyData.swift */,
+				D2EA0E82219BD313005277C0 /* ChartData.swift */,
+				D23E06CA21BF4FD1009B3F4E /* FilterData.swift */,
+				D2DF76B621C083D6006814B3 /* HistoryData.swift */,
+				6D58FD8F219FBF9A006B1FEE /* ServerInfoData.swift */,
+				D24E88C021A51C4A00CA44BF /* MarketData.swift */,
+				D288EF6D21C24B5C007B7A79 /* NewsData.swift */,
+				D288EF6021C2194F007B7A79 /* MarketCalCoinData.swift */,
+				D2A744C921C1CC02005E8F03 /* PriceData.swift */,
+				D2F1615121AD28F100ABE9EB /* TokenData.swift */,
+				D2E4E3B821AE77D9000E8972 /* EventData.swift */,
+				D2828AF721E32DDD00FA6322 /* SetupData.swift */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		D291B12B21C729DC00F4DA81 /* CoreDatas */ = {
+			isa = PBXGroup;
+			children = (
+				D291B12C21C729F300F4DA81 /* bitMoonCoreData.xcdatamodeld */,
+			);
+			path = CoreDatas;
+			sourceTree = "<group>";
+		};
+		D2DACC5721C369FF001C792C /* FavoriteViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2DACC5821C36A28001C792C /* Favorite.storyboard */,
+				D2DACC5A21C36A3E001C792C /* FavoriteNavigationController.swift */,
+				D2DACC5C21C36A65001C792C /* FavoriteTableViewController.swift */,
+				D291B0EC21C7241100F4DA81 /* FavoriteTableViewCell.swift */,
+			);
+			path = FavoriteViewControllers;
+			sourceTree = "<group>";
+		};
+		D2DFFFE4219A66E600131F85 /* FearViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2DFFFEC219A693500131F85 /* Fear.storyboard */,
+				D2DFFFE8219A690400131F85 /* FearNavigationController.swift */,
+				D2EA0E75219BBCFA005277C0 /* FearTableViewController.swift */,
+			);
+			path = FearViewControllers;
+			sourceTree = "<group>";
+		};
+		D2DFFFEE219A6E7800131F85 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				D253DE8A21B4E73D00F28ABF /* CoinMarketCalAuthParser.swift */,
+				D226EA6F21B4C5220011292A /* CoinMarketCalCoinsParser.swift */,
+				D285732221B0F1BD007CEAE2 /* CoinMarketCapTickerParser.swift */,
+				D226EA6D21B4C1210011292A /* CoinMarketCapListingsParser.swift */,
+				D2E3586B21B0CB0000DE066F /* CoinMarketCalEventParser.swift */,
+				D24E88A221A4CF7A00CA44BF /* ServiceParser.swift */,
+				D23B717C21BDF4E900D3D998 /* totalvolfullParser.swift */,
+				D2EA0E7D219BC18E005277C0 /* TurtleParser.h */,
+				D2EA0E7E219BC18E005277C0 /* TurtleParser.m */,
+				D2EA0E79219BBFB2005277C0 /* FearHtmlParser.swift */,
+				D2EA0E7B219BC0B2005277C0 /* TurtleHtmlParser.swift */,
+				D24E88BE21A51BE500CA44BF /* NomicsMarketParser.swift */,
+				D2DACC5521C334AE001C792C /* newsListParser.swift */,
+				D2A744C721C1CAD9005E8F03 /* pricemultifullParser.swift */,
+				D2DF76B421C08316006814B3 /* histodayParser.swift */,
+				D2828AF521E3212200FA6322 /* SetupDataParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		D2EA0E65219BB0FD005277C0 /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0E66219BB10B005277C0 /* AAJSFiles.bundle */,
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
+		D2EA0E68219BB257005277C0 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0E73219BB47D005277C0 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		D2EA0E84219BE27B005277C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0E86219BE27B005277C0 /* Bridging_Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2EA0E87219BE97E005277C0 /* CoinViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D216CDB221E495E1009E106C /* Coin.storyboard */,
+				D2EA0E8D219BED30005277C0 /* CoinNavigationViewController.swift */,
+				D2EA0E88219BE99E005277C0 /* CoinTableViewController.swift */,
+				D2131DC9219EA2D600BEF810 /* CoinTableViewCell.swift */,
+				D28939EC21A77E0200B44148 /* CoinViewController.swift */,
+				D2F1614F21AD1B4F00ABE9EB /* CoinDetailViewController.swift */,
+				D2239E7821AD18B3008EE207 /* CoinInfoViewController.swift */,
+			);
+			path = CoinViewControllers;
+			sourceTree = "<group>";
+		};
+		D2FFB8B521AE1BED006E7E43 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D2FFB8B621AE1C04006E7E43 /* ErrorManager.swift */,
+				D226EA6B21B4BF4B0011292A /* SyncManager.swift */,
+				D291B12F21C72B6500F4DA81 /* CoreDataManager.swift */,
+				D291B13121C7365400F4DA81 /* PurchaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D2FFB8B821AE1C95006E7E43 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				D2FFB8B921AE1CA9006E7E43 /* error.plist */,
+				D2828AF321E31F8F00FA6322 /* setup.plist */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27CC6232177072A00BF31A9 /* BitMoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27CC64C2177072B00BF31A9 /* Build configuration list for PBXNativeTarget "BitMoon" */;
+			buildPhases = (
+				4F9796CDD15AA5F3DE5CFF66 /* [CP] Check Pods Manifest.lock */,
+				D27CC6202177072A00BF31A9 /* Sources */,
+				D27CC6212177072A00BF31A9 /* Frameworks */,
+				D27CC6222177072A00BF31A9 /* Resources */,
+				42349EC074F783DCA6BA5B77 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitMoon;
+			productName = BitMoon;
+			productReference = D27CC6242177072A00BF31A9 /* BitMoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27CC6372177072B00BF31A9 /* BitMoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27CC64F2177072B00BF31A9 /* Build configuration list for PBXNativeTarget "BitMoonTests" */;
+			buildPhases = (
+				D51BAA1B7F821AFF303DEABB /* [CP] Check Pods Manifest.lock */,
+				D27CC6342177072B00BF31A9 /* Sources */,
+				D27CC6352177072B00BF31A9 /* Frameworks */,
+				D27CC6362177072B00BF31A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27CC63A2177072B00BF31A9 /* PBXTargetDependency */,
+			);
+			name = BitMoonTests;
+			productName = BitMoonTests;
+			productReference = D27CC6382177072B00BF31A9 /* BitMoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D27CC6422177072B00BF31A9 /* BitMoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27CC6522177072B00BF31A9 /* Build configuration list for PBXNativeTarget "BitMoonUITests" */;
+			buildPhases = (
+				4F84BF4DD0E6FB69BF4A076F /* [CP] Check Pods Manifest.lock */,
+				D27CC63F2177072B00BF31A9 /* Sources */,
+				D27CC6402177072B00BF31A9 /* Frameworks */,
+				D27CC6412177072B00BF31A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27CC6452177072B00BF31A9 /* PBXTargetDependency */,
+			);
+			name = BitMoonUITests;
+			productName = BitMoonUITests;
+			productReference = D27CC6432177072B00BF31A9 /* BitMoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27CC61C2177072900BF31A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = PFXStudio;
+				TargetAttributes = {
+					D27CC6232177072A00BF31A9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D27CC6372177072B00BF31A9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D27CC6232177072A00BF31A9;
+					};
+					D27CC6422177072B00BF31A9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D27CC6232177072A00BF31A9;
+					};
+				};
+			};
+			buildConfigurationList = D27CC61F2177072A00BF31A9 /* Build configuration list for PBXProject "BitMoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = D27CC61B2177072900BF31A9;
+			productRefGroup = D27CC6252177072A00BF31A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27CC6232177072A00BF31A9 /* BitMoon */,
+				D27CC6372177072B00BF31A9 /* BitMoonTests */,
+				D27CC6422177072B00BF31A9 /* BitMoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27CC6222177072A00BF31A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D649419217F541100189AC1 /* Guide.storyboard in Resources */,
+				D22648FE2179688400F3D4A2 /* awsconfiguration.json in Resources */,
+				D252E2DD21CCACE0000CA92F /* Web.storyboard in Resources */,
+				D23E8FF421E580C800E04270 /* opensourcelicense.html in Resources */,
+				D2DACC5921C36A28001C792C /* Favorite.storyboard in Resources */,
+				D288EF6421C2494E007B7A79 /* News.storyboard in Resources */,
+				D2DFFFED219A693500131F85 /* Fear.storyboard in Resources */,
+				D2EA0E71219BB47D005277C0 /* Localizable.strings in Resources */,
+				D27CC6322177072B00BF31A9 /* LaunchScreen.storyboard in Resources */,
+				D2EA0E67219BB10B005277C0 /* AAJSFiles.bundle in Resources */,
+				D2828AF421E31F8F00FA6322 /* setup.plist in Resources */,
+				D27CC62F2177072B00BF31A9 /* Assets.xcassets in Resources */,
+				D2FFB8BA21AE1CA9006E7E43 /* error.plist in Resources */,
+				D2828AD521E31A1B00FA6322 /* Setup.storyboard in Resources */,
+				D24E88BD21A516A200CA44BF /* Chart.storyboard in Resources */,
+				D27CC62D2177072A00BF31A9 /* Main.storyboard in Resources */,
+				D2239E7321AD1820008EE207 /* Event.storyboard in Resources */,
+				D216CDB021E495E1009E106C /* Coin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CC6362177072B00BF31A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CC6412177072B00BF31A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42349EC074F783DCA6BA5B77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitMoon/Pods-BitMoon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ElongationPreview/ElongationPreview.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/GSKStretchyHeaderView/GSKStretchyHeaderView.framework",
+				"${BUILT_PRODUCTS_DIR}/Navigation-stack/Navigation_stack.framework",
+				"${BUILT_PRODUCTS_DIR}/NewPopMenu/PopMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/PreviewTransition/PreviewTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMPaperSwitch/RAMPaperSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMReel/RAMReel.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProgressHUD/SwiftProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/expanding-collection/expanding_collection.framework",
+				"${BUILT_PRODUCTS_DIR}/fluid-slider/fluid_slider.framework",
+				"${BUILT_PRODUCTS_DIR}/garland-view/garland_view.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AAInfographics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ElongationPreview.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSKStretchyHeaderView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navigation_stack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PreviewTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMPaperSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMReel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/expanding_collection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluid_slider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/garland_view.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitMoon/Pods-BitMoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F84BF4DD0E6FB69BF4A076F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitMoonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F9796CDD15AA5F3DE5CFF66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitMoon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51BAA1B7F821AFF303DEABB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitMoonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27CC6202177072A00BF31A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2828AF621E3212200FA6322 /* SetupDataParser.swift in Sources */,
+				D2EA0E7F219BC18E005277C0 /* TurtleParser.m in Sources */,
+				D2EA0E89219BE99F005277C0 /* CoinTableViewController.swift in Sources */,
+				D288EF6821C2496E007B7A79 /* NewsTableViewCell.swift in Sources */,
+				D2E4E3B921AE77D9000E8972 /* EventData.swift in Sources */,
+				D24E88BB21A5168100CA44BF /* ChartTableViewController.swift in Sources */,
+				D2DACC5D21C36A65001C792C /* FavoriteTableViewController.swift in Sources */,
+				6D649420217F55BB00189AC1 /* RegistViewController.swift in Sources */,
+				D28939FA21A797D100B44148 /* CustomLayoutAttributes.swift in Sources */,
+				D22143B721AFBF4C005B0767 /* DefineColors.swift in Sources */,
+				D24E88BF21A51BE500CA44BF /* NomicsMarketParser.swift in Sources */,
+				D2EA0E7A219BBFB2005277C0 /* FearHtmlParser.swift in Sources */,
+				D288EF6C21C24A57007B7A79 /* NewsNavigationController.swift in Sources */,
+				D26D33692181A9B500DD448F /* AWSAPI_HWVW65QROJ_RequestSchema.m in Sources */,
+				D22143B521AFB366005B0767 /* ImageUtil.swift in Sources */,
+				D2A744C821C1CAD9005E8F03 /* pricemultifullParser.swift in Sources */,
+				D23B717D21BDF4E900D3D998 /* totalvolfullParser.swift in Sources */,
+				D22143B921AFC02B005B0767 /* CoinData.swift in Sources */,
+				D216CDAA21E41B9D009E106C /* EmptySegue.swift in Sources */,
+				D216CD9F21E414C6009E106C /* SetupVersionViewController.swift in Sources */,
+				D2E4E3BD21AE7FCC000E8972 /* EventInfoViewController.swift in Sources */,
+				D24E88B621A515B100CA44BF /* KeyData.swift in Sources */,
+				D2131DCA219EA2D600BEF810 /* CoinTableViewCell.swift in Sources */,
+				6D58FD90219FBF9A006B1FEE /* ServerInfoData.swift in Sources */,
+				D226EA6C21B4BF4B0011292A /* SyncManager.swift in Sources */,
+				D2828AF821E32DDD00FA6322 /* SetupData.swift in Sources */,
+				D26D336B2181A9B500DD448F /* ProfileTable.swift in Sources */,
+				D288EF6A21C2497B007B7A79 /* NewsViewController.swift in Sources */,
+				6D649414217F540C00189AC1 /* HomeTableViewController.swift in Sources */,
+				D2828AFA21E3368200FA6322 /* SetupTableViewCell.swift in Sources */,
+				D285732321B0F1BD007CEAE2 /* CoinMarketCapTickerParser.swift in Sources */,
+				D226EA7021B4C5220011292A /* CoinMarketCalCoinsParser.swift in Sources */,
+				D2EA0E7C219BC0B2005277C0 /* TurtleHtmlParser.swift in Sources */,
+				6D64941B217F541800189AC1 /* DatabaseTableViewController.swift in Sources */,
+				D253DE8B21B4E73D00F28ABF /* CoinMarketCalAuthParser.swift in Sources */,
+				D216CDA321E41502009E106C /* SetupCompanyViewController.swift in Sources */,
+				D2E3586C21B0CB0000DE066F /* CoinMarketCalEventParser.swift in Sources */,
+				6D649418217F541100189AC1 /* GuideViewController.swift in Sources */,
+				D27CC6282177072A00BF31A9 /* AppDelegate.swift in Sources */,
+				D226EA6E21B4C1210011292A /* CoinMarketCapListingsParser.swift in Sources */,
+				D2239E7521AD1830008EE207 /* EventTableViewController.swift in Sources */,
+				D28939F921A797D100B44148 /* CustomLayoutSettings.swift in Sources */,
+				D26D336A2181A9B500DD448F /* AWSAPI_HWVW65QROJ_ProfileMobileHubClient.m in Sources */,
+				D216CDA121E414E6009E106C /* SetupDataViewController.swift in Sources */,
+				D24E88A321A4CF7A00CA44BF /* ServiceParser.swift in Sources */,
+				6D649413217F540C00189AC1 /* HomeTableViewCell.swift in Sources */,
+				D288EF6121C21950007B7A79 /* MarketCalCoinData.swift in Sources */,
+				D22649152179A81600F3D4A2 /* DefineStrings.swift in Sources */,
+				D28939FB21A797D100B44148 /* CustomLayout.swift in Sources */,
+				6D64941D217F541D00189AC1 /* AccountViewController.swift in Sources */,
+				D2DFFFE9219A690400131F85 /* FearNavigationController.swift in Sources */,
+				D2EA0E76219BBCFA005277C0 /* FearTableViewController.swift in Sources */,
+				D26D336C2181A9B500DD448F /* Profiles.swift in Sources */,
+				D2EA0E8E219BED30005277C0 /* CoinNavigationViewController.swift in Sources */,
+				6D649415217F540C00189AC1 /* HomeViewController.swift in Sources */,
+				D2DACC5B21C36A3E001C792C /* FavoriteNavigationController.swift in Sources */,
+				D288EF6621C24962007B7A79 /* NewsTableViewController.swift in Sources */,
+				D25CB7A521CA15F500E9ACEB /* UIViewExtention.swift in Sources */,
+				D2239E7921AD18B3008EE207 /* CoinInfoViewController.swift in Sources */,
+				D216CDA521E41518009E106C /* SetupWebViewController.swift in Sources */,
+				D2DF76B721C083D6006814B3 /* HistoryData.swift in Sources */,
+				D24E88B921A5167000CA44BF /* ChartNavigationController.swift in Sources */,
+				D23E06CB21BF4FD1009B3F4E /* FilterData.swift in Sources */,
+				D252E2DF21CCACEE000CA92F /* WebViewController.swift in Sources */,
+				D216CD9D21E414A3009E106C /* SetupContainerViewController.swift in Sources */,
+				D2EA0E83219BD313005277C0 /* ChartData.swift in Sources */,
+				D2DACC5621C334AE001C792C /* newsListParser.swift in Sources */,
+				D291B0ED21C7241100F4DA81 /* FavoriteTableViewCell.swift in Sources */,
+				D291B12E21C729F300F4DA81 /* bitMoonCoreData.xcdatamodeld in Sources */,
+				D2FFB8B721AE1C04006E7E43 /* ErrorManager.swift in Sources */,
+				D2DF76B521C08316006814B3 /* histodayParser.swift in Sources */,
+				D239CAF321D4498C00CA52C2 /* DefineNumbers.swift in Sources */,
+				D2F1615021AD1B4F00ABE9EB /* CoinDetailViewController.swift in Sources */,
+				D26D33682181A9B500DD448F /* AWSAPI_HWVW65QROJ_ResponseSchema.m in Sources */,
+				D2A744CA21C1CC02005E8F03 /* PriceData.swift in Sources */,
+				D24E88C121A51C4A00CA44BF /* MarketData.swift in Sources */,
+				D291B13221C7365400F4DA81 /* PurchaseManager.swift in Sources */,
+				D216CDA721E41638009E106C /* SetupViewController.swift in Sources */,
+				D2F1615221AD28F100ABE9EB /* TokenData.swift in Sources */,
+				D2E4E3BB21AE7C55000E8972 /* EventTableViewCell.swift in Sources */,
+				D28939ED21A77E0200B44148 /* CoinViewController.swift in Sources */,
+				D2828AD321E31A1100FA6322 /* SetupTableViewController.swift in Sources */,
+				D291B13021C72B6500F4DA81 /* CoreDataManager.swift in Sources */,
+				D288EF6E21C24B5C007B7A79 /* NewsData.swift in Sources */,
+				D2828AD121E319F500FA6322 /* SetupNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CC6342177072B00BF31A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27CC63D2177072B00BF31A9 /* BitMoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27CC63F2177072B00BF31A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27CC6482177072B00BF31A9 /* BitMoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27CC63A2177072B00BF31A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27CC6232177072A00BF31A9 /* BitMoon */;
+			targetProxy = D27CC6392177072B00BF31A9 /* PBXContainerItemProxy */;
+		};
+		D27CC6452177072B00BF31A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27CC6232177072A00BF31A9 /* BitMoon */;
+			targetProxy = D27CC6442177072B00BF31A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D216CDB221E495E1009E106C /* Coin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D216CDB121E495E1009E106C /* Base */,
+				D216CDB421E495EB009E106C /* ko */,
+			);
+			name = Coin.storyboard;
+			sourceTree = "<group>";
+		};
+		D27CC62B2177072A00BF31A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27CC62C2177072A00BF31A9 /* Base */,
+				D27AA6CB2177125300FF0EA8 /* ko */,
+				D216CDAC21E49206009E106C /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27CC6302177072B00BF31A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27CC6312177072B00BF31A9 /* Base */,
+				D27AA6CC2177125300FF0EA8 /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D2EA0E73219BB47D005277C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EA0E72219BB47D005277C0 /* ko */,
+				D2EA0E74219BB47E005277C0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27CC64A2177072B00BF31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D27CC64B2177072B00BF31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27CC64D2177072B00BF31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAF6F96E7DCDB04E82B6D17 /* Pods-BitMoon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = BitMoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.BitcoinMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitMoon/Supporting Files/Bridging_Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27CC64E2177072B00BF31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E096D25260C5AFD8575765 /* Pods-BitMoon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HRPNLU6RA;
+				INFOPLIST_FILE = BitMoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.BitcoinMoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitMoon/Supporting Files/Bridging_Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D27CC6502177072B00BF31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906620289836D141841D4EC4 /* Pods-BitMoonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RMFDJC6DZ;
+				INFOPLIST_FILE = BitMoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.BitMoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitMoon.app/BitMoon";
+			};
+			name = Debug;
+		};
+		D27CC6512177072B00BF31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E457FF042F2FDD904C181DB /* Pods-BitMoonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RMFDJC6DZ;
+				INFOPLIST_FILE = BitMoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.BitMoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitMoon.app/BitMoon";
+			};
+			name = Release;
+		};
+		D27CC6532177072B00BF31A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6352D9E7C2D7DEFB74E66AA7 /* Pods-BitMoonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RMFDJC6DZ;
+				INFOPLIST_FILE = BitMoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.BitMoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitMoon;
+			};
+			name = Debug;
+		};
+		D27CC6542177072B00BF31A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D213BB30B795C5303FCB28 /* Pods-BitMoonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RMFDJC6DZ;
+				INFOPLIST_FILE = BitMoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pfxstudio.BitMoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitMoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27CC61F2177072A00BF31A9 /* Build configuration list for PBXProject "BitMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27CC64A2177072B00BF31A9 /* Debug */,
+				D27CC64B2177072B00BF31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27CC64C2177072B00BF31A9 /* Build configuration list for PBXNativeTarget "BitMoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27CC64D2177072B00BF31A9 /* Debug */,
+				D27CC64E2177072B00BF31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27CC64F2177072B00BF31A9 /* Build configuration list for PBXNativeTarget "BitMoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27CC6502177072B00BF31A9 /* Debug */,
+				D27CC6512177072B00BF31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27CC6522177072B00BF31A9 /* Build configuration list for PBXNativeTarget "BitMoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27CC6532177072B00BF31A9 /* Debug */,
+				D27CC6542177072B00BF31A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D291B12C21C729F300F4DA81 /* bitMoonCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D291B12D21C729F300F4DA81 /* bitMoonCoreData.xcdatamodel */,
+			);
+			currentVersion = D291B12D21C729F300F4DA81 /* bitMoonCoreData.xcdatamodel */;
+			path = bitMoonCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D27CC61C2177072900BF31A9 /* Project object */;
+}

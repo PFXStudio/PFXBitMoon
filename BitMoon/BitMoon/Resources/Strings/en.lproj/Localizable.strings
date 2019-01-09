@@ -1,0 +1,102 @@
+/* 
+  Localizable.strings
+  BitMoon
+
+  Created by succorer on 2018. 11. 14..
+  Copyright © 2018년 PFXStudio. All rights reserved.
+*/
+
+// Alert
+"noticeTitle" = "Notice";
+"doneButtonTitle" = "Done";
+"cancelButtonTitle" = "Cancel";
+"deleteButtonTitle" = "Delete";
+
+// ViewControllers Title
+"CoinTableViewController" = "Coin List";
+"FavoriteTableViewController" = "Favorite List";
+"NewsTableViewController" = "News List";
+"SetupTableViewController" = "Setup List";
+
+// Error
+"errorFearIndexLoading" = "Fail Loading.";
+"errorCoinMarketCalOAuth" = "Fail Auth.";
+"errorUnknownSymbol" = "Not registed coin.";
+"errorCoinMarketCalExfiredToken" = "Exfired Auth token.";
+"errorDuplicateSymbol" = "Can't add to favorite coin list.";
+"errorSendMail" = "Fail send mail.";
+"errorMaxFavoriteCount" = "Max favorite count.";
+"errorCoinMarketCalEventList" = "Fail Loading.";
+
+// Contents
+"cryptoFearGreedIndexTitle" = "Greed Index";
+"cryptoGreedTitle" = "Greed";
+"buyMarketIndexTitle" = "Buy Market Index";
+"buyMarketTitle" = "Buy Market";
+"loadingTitle" = "Loading...";
+"historyTitle" = "Price";
+
+// Info
+"notCommingEvent" = "Not Comming event.";
+"positiveVoteFormat" = "Vote Positive %d%% (%d/%d)";
+"noRegistedEvents" = "There are no registered events.";
+"secondAgo" = "%d second ago";
+"minuteAgo" = "%d min ago";
+"hourAgo" = "%d hour ago";
+"dayAgo" = "%d days ago";
+"newsTitle" = "News List";
+"symbol" = "Symbol";
+"change24h" = "ᖼ(%)";
+"volume" = "Volume(24h)";
+"currentPrice" = "Price";
+"setupTitle" = "Setup";
+
+// Setup
+"app_setup_title" = "Setup";
+"app_setup_section_0" = "Infomation";
+"app_setup_version_title" = "Version";
+"app_setup_data_title" = "Data & Storage";
+"app_setup_section_1" = "License & Terms";
+"app_setup_legal_title" = "위치기반서비스 이용약관";
+"app_setup_opensource_title" = "Open Source License";
+"app_setup_license_title" = "License";
+"app_setup_section_2" = "Company Infomation";
+"app_setup_company_name" = "PFXStudio";
+"app_setup_section_3" = "Support";
+"app_setup_notice_title" = "Notice";
+"app_setup_req_title" = "Contact us";
+"app_setup_version_current" = "Current Version";
+"app_setup_version_os" = "Support iOS 11+";
+"app_setup_data_space_title" = "Storage";
+"app_setup_data_space_use" = "%@ used";
+"app_setup_data_delete_button" = "Delete Data";
+"app_setup_data_delete_contents" = "Deletes and cleans all data.\nWhen all data is cleaned, the data is downloaded again.";
+"app_setup_data_delete_confirm_message" = "Are you sure you want to delete?";
+
+"app_setup_company_name_title" = "Company Name";
+"app_setup_company_phone_title" = "";
+"app_setup_company_phone" = "";
+"app_setup_company_address_title" = "Address";
+"app_setup_company_address" = "";
+"app_setup_company_homepage_title" = "HomePage";
+"app_setup_company_homepage" = "";
+"app_setup_company_email_title" = "E-mail";
+"app_setup_company_facebook_title" = "Facebook";
+"app_setup_company_twitter_title" = "Twitter";
+"app_setup_email_button" = "bitmoon.noreply@gmail.com";
+"app_setup_facebook_button" = "https://www.facebook.com/moon.bit.3538";
+"app_setup_twitter_button" = "https://twitter.com/BitmoonN";
+"app_setup_google_button" = "https://plus.google.com/u/0/103419841153222292180";
+"mailSubject" = "Please contact us.";
+"mailBody" = "Thank you for your feedback.";
+
+// guide
+"guideTitle0" = "Current Prices";
+"guideTitle1" = "Events";
+"guideContents0" = "Easily check the price of Bit/Alt coins.";
+"guideContents1" = "Easily check the events of Bit/Alt coins.";
+
+// hud
+"addedFavorite" = "Added Favorite list.";
+"removedFavorite" = "Removed Favorite list.";
+"emptyFavorite" = "Empty favorite list.";

@@ -1,0 +1,53 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BitMoon' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'AWSUserPoolsSignIn', '~> 2.6.13'
+  pod 'AWSAuthUI', '~> 2.6.13'
+  pod 'AWSDynamoDB', '~> 2.6.13'
+  pod 'AWSMobileClient', '~> 2.6.13'
+  pod 'AWSAPIGateway', '~> 2.6.13'
+  pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireImage', '~> 3.4'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'SnapKit', '~> 4.0.0'
+  pod 'FoldingCell'
+  pod 'RAMAnimatedTabBarController'
+  pod 'expanding-collection'
+  pod 'CircleMenu'
+  pod 'RAMPaperSwitch'
+  pod 'paper-onboarding'
+  pod 'RAMReel'
+  pod 'Navigation-stack'
+  pod 'PreviewTransition'
+  pod 'fluid-slider'
+  pod 'ElongationPreview'
+  pod 'garland-view'
+  pod 'CryptoSwift'
+  pod 'ScrollableGraphView'
+  pod 'ViewAnimator'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'SwiftProgressHUD'
+  pod 'AAInfographics'
+  pod 'GSKStretchyHeaderView'
+  pod 'NewPopMenu', '~> 2.0'
+  pod 'SwiftyBeaver'
+  pod 'CryptoSwift'
+  
+  # Pods for BitMoon
+
+  target 'BitMoonTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BitMoonUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

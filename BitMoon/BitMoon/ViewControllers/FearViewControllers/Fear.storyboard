@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.30.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.19.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fear Table View Controller-->
+        <scene sceneID="RS9-76-Dzp">
+            <objects>
+                <tableViewController storyboardIdentifier="FearTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pSJ-oZ-gnu" customClass="FearTableViewController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="A0Z-Y0-AXg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="JUO-6h-Uhq">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="400" id="Jmk-GO-sU6">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jmk-GO-sU6" id="JAa-9k-RYL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="399.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psW-Jd-h4N">
+                                                    <rect key="frame" x="0.0" y="12" width="359" height="375"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                                <wkWebView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HVZ-IN-zpZ">
+                                                    <rect key="frame" x="0.0" y="12" width="375" height="375"/>
+                                                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <wkWebViewConfiguration key="configuration">
+                                                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                                        <wkPreferences key="preferences"/>
+                                                    </wkWebViewConfiguration>
+                                                </wkWebView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="HVZ-IN-zpZ" secondAttribute="trailing" id="CuW-YU-897"/>
+                                                <constraint firstItem="HVZ-IN-zpZ" firstAttribute="leading" secondItem="JAa-9k-RYL" secondAttribute="leading" id="EeM-yN-6v1"/>
+                                                <constraint firstItem="psW-Jd-h4N" firstAttribute="leading" secondItem="JAa-9k-RYL" secondAttribute="leading" id="N0x-Uj-Zbd"/>
+                                                <constraint firstAttribute="bottom" secondItem="HVZ-IN-zpZ" secondAttribute="bottom" constant="12.5" id="QE8-6r-caZ"/>
+                                                <constraint firstItem="psW-Jd-h4N" firstAttribute="top" secondItem="JAa-9k-RYL" secondAttribute="top" constant="12" id="fBf-py-NHR"/>
+                                                <constraint firstItem="HVZ-IN-zpZ" firstAttribute="top" secondItem="JAa-9k-RYL" secondAttribute="top" constant="12" id="lLC-v1-hZs"/>
+                                                <constraint firstAttribute="trailing" secondItem="psW-Jd-h4N" secondAttribute="trailing" constant="16" id="ti8-mP-y1d"/>
+                                                <constraint firstAttribute="bottom" secondItem="psW-Jd-h4N" secondAttribute="bottom" constant="12.5" id="wbP-9l-PDB"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="400" id="VFJ-Gu-JLQ">
+                                        <rect key="frame" x="0.0" y="400" width="375" height="400"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VFJ-Gu-JLQ" id="obq-XG-nri">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="399.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWk-gY-aLG">
+                                                    <rect key="frame" x="0.0" y="12" width="359" height="375"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                                <wkWebView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yf6-5Y-a7q">
+                                                    <rect key="frame" x="0.0" y="12" width="375" height="375"/>
+                                                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <wkWebViewConfiguration key="configuration">
+                                                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                                        <wkPreferences key="preferences"/>
+                                                    </wkWebViewConfiguration>
+                                                </wkWebView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="yf6-5Y-a7q" secondAttribute="trailing" id="0wl-Ec-IBi"/>
+                                                <constraint firstAttribute="trailing" secondItem="kWk-gY-aLG" secondAttribute="trailing" constant="16" id="Ax6-yA-i2M"/>
+                                                <constraint firstItem="yf6-5Y-a7q" firstAttribute="leading" secondItem="obq-XG-nri" secondAttribute="leading" id="Q6c-H2-9tG"/>
+                                                <constraint firstItem="yf6-5Y-a7q" firstAttribute="top" secondItem="obq-XG-nri" secondAttribute="top" constant="12" id="Rnw-xf-t6b"/>
+                                                <constraint firstItem="kWk-gY-aLG" firstAttribute="top" secondItem="obq-XG-nri" secondAttribute="top" constant="12" id="WR4-ww-fm9"/>
+                                                <constraint firstAttribute="bottom" secondItem="yf6-5Y-a7q" secondAttribute="bottom" constant="12.5" id="gYV-Bo-ghi"/>
+                                                <constraint firstItem="kWk-gY-aLG" firstAttribute="leading" secondItem="obq-XG-nri" secondAttribute="leading" id="uHa-XS-Eup"/>
+                                                <constraint firstAttribute="bottom" secondItem="kWk-gY-aLG" secondAttribute="bottom" constant="12.5" id="yq1-ZO-xWa"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="pSJ-oZ-gnu" id="gDT-Kz-ZGL"/>
+                            <outlet property="delegate" destination="pSJ-oZ-gnu" id="rqw-e0-gXk"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="fearChartBgndView" destination="kWk-gY-aLG" id="X1o-yu-s5w"/>
+                        <outlet property="turtleChartBgndView" destination="psW-Jd-h4N" id="cMT-P5-lQV"/>
+                        <outlet property="webView" destination="yf6-5Y-a7q" id="nzL-ZJ-0ag"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q60-n5-AvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792.79999999999995" y="-56.221889055472268"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,18 @@
+
+/* Class = "UITabBarItem"; title = "Favorite"; ObjectID = "B06-7k-slo"; */
+"B06-7k-slo.title" = "Favorite";
+
+/* Class = "UITabBarItem"; title = "News"; ObjectID = "QQf-cG-vtc"; */
+"QQf-cG-vtc.title" = "News";
+
+/* Class = "UITabBarItem"; title = "Setup"; ObjectID = "Th4-iA-3FZ"; */
+"Th4-iA-3FZ.title" = "Setup";
+
+/* Class = "UITabBarItem"; title = "Fear"; ObjectID = "UG4-Hz-RVz"; */
+"UG4-Hz-RVz.title" = "Fear";
+
+/* Class = "UITabBarItem"; title = "Chart"; ObjectID = "mRT-Tx-lz0"; */
+"mRT-Tx-lz0.title" = "Chart";
+
+/* Class = "UITabBarItem"; title = "Coin"; ObjectID = "yth-ZG-sQb"; */
+"yth-ZG-sQb.title" = "Coin";

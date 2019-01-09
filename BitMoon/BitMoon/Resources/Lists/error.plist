@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>E10001</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorFearIndexLoading</string>
+		<key>description</key>
+		<string>공포지수 로딩 실패</string>
+	</dict>
+	<key>E10002</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorCoinMarketCalOAuth</string>
+		<key>description</key>
+		<string>달력 인증 실패</string>
+	</dict>
+	<key>E10003</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorCoinMarketCalCoinList</string>
+		<key>description</key>
+		<string>코인 리스트 정보 실패</string>
+	</dict>
+	<key>E10004</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorCoinMarketCalEventList</string>
+		<key>description</key>
+		<string>이벤트 리스트 로딩 실패</string>
+	</dict>
+	<key>E10005</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorUnknownSymbol</string>
+		<key>description</key>
+		<string>등록되지 않은 코인</string>
+	</dict>
+	<key>E10006</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorCoinMarketCalExfiredToken</string>
+		<key>description</key>
+		<string>인증 토큰 만료</string>
+	</dict>
+	<key>E10007</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorPageLoading</string>
+		<key>description</key>
+		<string>페이지 로딩 실패</string>
+	</dict>
+	<key>E10008</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorDuplicateSymbol</string>
+		<key>description</key>
+		<string>중복 코인</string>
+	</dict>
+	<key>E10009</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorSendMail</string>
+		<key>description</key>
+		<string>메일 전송 실패</string>
+	</dict>
+	<key>E10010</key>
+	<dict>
+		<key>messageKey</key>
+		<string>errorMaxFavoriteCount</string>
+		<key>description</key>
+		<string>즐겨찾기 수 제한</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,100 @@
+/* 
+  Localizable.strings
+  BitMoon
+
+  Created by succorer on 2018. 11. 14..
+  Copyright © 2018년 PFXStudio. All rights reserved.
+*/
+
+// Alert
+"noticeTitle" = "알림";
+"doneButtonTitle" = "확인";
+"cancelButtonTitle" = "취소";
+"deleteButtonTitle" = "삭제";
+
+// ViewControllers Title
+"CoinTableViewController" = "코인 목록";
+"FavoriteTableViewController" = "즐겨찾기 목록";
+"NewsTableViewController" = "뉴스 목록";
+"SetupTableViewController" = "설정 목록";
+
+// Error
+"errorFearIndexLoading" = "투자 심리 불러오기에 실패 하였습니다.";
+"errorCoinMarketCalOAuth" = "인증에 실패 하였습니다.";
+"errorUnknownSymbol" = "등록되지 않은 코인입니다.";
+"errorCoinMarketCalExfiredToken" = "인증이 만료 되었습니다.";
+"errorDuplicateSymbol" = "즐겨찾기 목록에 추가 할 수 없는 코인입니다.";
+"errorSendMail" = "메일 전송에 실패하였습니다.";
+"errorMaxFavoriteCount" = "더 이상 즐겨찾기를 추가 할 수 없습니다.";
+"errorCoinMarketCalEventList" = "이벤트 정보 불러오기에 실패 하였습니다.";
+
+// Contents
+"cryptoFearGreedIndexTitle" = "투자 심리 지수";
+"cryptoGreedTitle" = "투자 심리";
+"buyMarketIndexTitle" = "매수 강도 지수";
+"buyMarketTitle" = "매수 강도";
+"loadingTitle" = "불러 오는 중...";
+"historyTitle" = "가격";
+
+// Info
+"notCommingEvent" = "이벤트 소식이 존재하지 않습니다.";
+"positiveVoteFormat" = "긍정적 투표 %d%% (%d/%d)";
+"noRegistedEvents" = "등록 된 이벤트가 없습니다.";
+"secondAgo" = "%d초 전";
+"minuteAgo" = "%d분 전";
+"hourAgo" = "%d시간 전";
+"dayAgo" = "%d일 전";
+"symbol" = "심볼명";
+"change24h" = "ᖼ(%)";
+"volume" = "거래량(24H)";
+"currentPrice" = "현재가";
+
+// Setup
+"app_setup_title" = "설정";
+"app_setup_section_0" = "제품정보";
+"app_setup_version_title" = "버전정보";
+"app_setup_data_title" = "데이터 및 저장소";
+"app_setup_section_1" = "라이선스 및 약관";
+"app_setup_legal_title" = "위치기반서비스 이용약관";
+"app_setup_opensource_title" = "오픈소스 라이선스";
+"app_setup_license_title" = "라이선스";
+"app_setup_section_2" = "회사정보";
+"app_setup_company_name" = "PFXStudio";
+"app_setup_section_3" = "고객센터";
+"app_setup_notice_title" = "공지사항";
+"app_setup_req_title" = "문의하기";
+"app_setup_version_current" = "현재버전";
+"app_setup_version_os" = "지원환경 iOS 11.0 이상";
+"app_setup_data_space_title" = "저장공간";
+"app_setup_data_space_use" = "%@ 사용중";
+"app_setup_data_delete_button" = "저장된 데이터 삭제";
+"app_setup_data_delete_contents" = "모든 데이터를 삭제하고 정리해줍니다.\n모든 데이터가 정리되면 데이터를 다시 다운로드 받습니다.";
+"app_setup_data_delete_confirm_message" = "정말 삭제하시겠습니까?";
+
+"app_setup_company_name_title" = "회사명";
+"app_setup_company_phone_title" = "전화번호";
+"app_setup_company_phone" = "02-6313-3491";
+"app_setup_company_address_title" = "주소";
+"app_setup_company_address" = "";
+"app_setup_company_homepage_title" = "홈페이지";
+"app_setup_company_homepage" = "";
+"app_setup_company_email_title" = "E-mail";
+"app_setup_company_facebook_title" = "Facebook";
+"app_setup_company_twitter_title" = "Twitter";
+"app_setup_email_button" = "bitmoon.noreply@gmail.com";
+"app_setup_facebook_button" = "https://www.facebook.com/moon.bit.3538";
+"app_setup_twitter_button" = "https://twitter.com/BitmoonN";
+"app_setup_google_button" = "https://plus.google.com/u/0/103419841153222292180";
+"mailSubject" = "문의 드립니다.";
+"mailBody" = "소중한 의견 감사합니다.";
+
+// guide
+"guideTitle0" = "현재 시세";
+"guideTitle1" = "이벤트 소식";
+"guideContents0" = "비트/알트 코인들의 시세를 쉽게 확인 할 수 있습니다.";
+"guideContents1" = "비트/알트 코인들의 이벤트 소식을 쉽게 확인 할 수 있습니다.";
+
+// hud
+"addedFavorite" = "즐겨찾기 목록에 추가 되었습니다.";
+"removedFavorite" = "즐겨찾기 목록에서 삭제 되었습니다.";
+"emptyFavorite" = "즐겨찾기 목록에 추가 된 코인이 없습니다.";

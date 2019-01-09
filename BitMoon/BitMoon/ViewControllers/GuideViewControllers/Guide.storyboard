@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fd4-FH-hog">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="fuU-9F-gG7">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Fd4-FH-hog" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6nF-o9-kpm">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="M5E-NP-LJc" kind="relationship" relationship="rootViewController" id="X9l-cp-bjX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QUu-nd-0zJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-198" y="12"/>
+        </scene>
+        <!--Data Source-->
+        <scene sceneID="fCL-th-kW6">
+            <objects>
+                <viewController storyboardIdentifier="GuideViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M5E-NP-LJc" customClass="GuideViewController" customModule="BitMoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sxa-2L-jwm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KEP-x8-pgh" customClass="PaperOnboarding" customModule="paper_onboarding">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="M5E-NP-LJc" id="Qjl-hI-hyG"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KEP-x8-pgh" firstAttribute="leading" secondItem="ypW-lW-9X7" secondAttribute="leading" id="2UC-Xf-4cx"/>
+                            <constraint firstItem="KEP-x8-pgh" firstAttribute="trailing" secondItem="ypW-lW-9X7" secondAttribute="trailing" id="f8I-z4-AHG"/>
+                            <constraint firstItem="KEP-x8-pgh" firstAttribute="bottom" secondItem="ypW-lW-9X7" secondAttribute="bottom" id="fy5-vN-4dj"/>
+                            <constraint firstItem="KEP-x8-pgh" firstAttribute="top" secondItem="Sxa-2L-jwm" secondAttribute="top" id="gBX-sG-Omk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ypW-lW-9X7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LGL-PK-O6n"/>
+                    <connections>
+                        <outlet property="paperView" destination="KEP-x8-pgh" id="ZIl-8c-WmV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Scy-Ya-nQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="519" y="13"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Mkt. Cap"; ObjectID = "12I-hI-MA8"; */
+"12I-hI-MA8.text" = "Mkt. Cap";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "1mV-ot-Ifq"; */
+"1mV-ot-Ifq.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "8xn-l0-cuf"; */
+"8xn-l0-cuf.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Eyw-sj-RnJ"; */
+"Eyw-sj-RnJ.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "GJ4-yB-M1a"; */
+"GJ4-yB-M1a.text" = "-";
+
+/* Class = "UILabel"; text = "BCHABC"; ObjectID = "Hmk-a0-jRf"; */
+"Hmk-a0-jRf.text" = "BCHABC";
+
+/* Class = "UISegmentedControl"; IRs-Ku-iel.segmentTitles[0] = "Info"; ObjectID = "IRs-Ku-iel"; */
+"IRs-Ku-iel.segmentTitles[0]" = "정보";
+
+/* Class = "UISegmentedControl"; IRs-Ku-iel.segmentTitles[1] = "Event"; ObjectID = "IRs-Ku-iel"; */
+"IRs-Ku-iel.segmentTitles[1]" = "이벤트";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[0] = "1H"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[0]" = "1H";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[1] = "1D"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[1]" = "1D";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[2] = "1W"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[2]" = "1W";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[3] = "1M"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[3]" = "1M";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[4] = "3M"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[4]" = "3M";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[5] = "6M"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[5]" = "6M";
+
+/* Class = "UISegmentedControl"; RA5-WV-f5x.segmentTitles[6] = "1Y"; ObjectID = "RA5-WV-f5x"; */
+"RA5-WV-f5x.segmentTitles[6]" = "1Y";
+
+/* Class = "UILabel"; text = "34 USD"; ObjectID = "U5g-9k-9pS"; */
+"U5g-9k-9pS.text" = "34 USD";
+
+/* Class = "UILabel"; text = "Vol. 24H\n"; ObjectID = "Xh9-Vr-Bsc"; */
+"Xh9-Vr-Bsc.text" = "Vol. 24H\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aak-0E-q1O"; */
+"aak-0E-q1O.text" = "Label";
+
+/* Class = "UILabel"; text = "Low/High 24h\n"; ObjectID = "cq8-Zb-Ff5"; */
+"cq8-Zb-Ff5.text" = "Low/High 24h\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dfv-N1-aql"; */
+"dfv-N1-aql.text" = "Label";
+
+/* Class = "UILabel"; text = "34 USD"; ObjectID = "eUl-sg-ZOS"; */
+"eUl-sg-ZOS.text" = "34 USD";
+
+/* Class = "UILabel"; text = "24422.12 BCC"; ObjectID = "efL-XM-1u9"; */
+"efL-XM-1u9.text" = "24422.12 BCC";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "fKq-ey-7Bd"; */
+"fKq-ey-7Bd.text" = "-";
+
+/* Class = "UILabel"; text = "Open 24h\n"; ObjectID = "gmG-IY-16u"; */
+"gmG-IY-16u.text" = "Open 24h\n";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "n8l-4C-AfV"; */
+"n8l-4C-AfV.text" = "-";

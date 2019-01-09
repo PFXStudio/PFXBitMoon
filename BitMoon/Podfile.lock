@@ -1,0 +1,172 @@
+PODS:
+  - AAInfographics (2.0.4)
+  - Alamofire (4.8.0)
+  - AlamofireImage (3.5.0):
+    - Alamofire (~> 4.8)
+  - AWSAPIGateway (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSAuthCore (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSAuthUI (2.6.35):
+    - AWSAuthCore (= 2.6.35)
+    - AWSCore (= 2.6.35)
+  - AWSCognitoIdentityProvider (2.6.35):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.35)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.35)
+  - AWSDynamoDB (2.6.35):
+    - AWSCore (= 2.6.35)
+  - AWSMobileClient (2.6.35):
+    - AWSAuthCore (= 2.6.35)
+  - AWSUserPoolsSignIn (2.6.35):
+    - AWSAuthCore (= 2.6.35)
+    - AWSCognitoIdentityProvider (= 2.6.35)
+  - CircleMenu (4.0.1)
+  - CryptoSwift (0.13.1)
+  - ElongationPreview (2.0.0)
+  - expanding-collection (3.0.0)
+  - fluid-slider (1.0.0):
+    - pop
+  - FoldingCell (4.0.2)
+  - garland-view (0.0.1)
+  - GSKStretchyHeaderView (1.0.4)
+  - Navigation-stack (3.0.0)
+  - NewPopMenu (2.1.1)
+  - paper-onboarding (5.0.0)
+  - pop (1.0.12)
+  - PreviewTransition (4.0.0)
+  - RAMAnimatedTabBarController (4.0.1)
+  - RAMPaperSwitch (3.0.0)
+  - RAMReel (4.0.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - ScrollableGraphView (4.0.6)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SnapKit (4.0.1)
+  - SwiftProgressHUD (0.0.7)
+  - SwiftyBeaver (1.6.1)
+  - SwiftyJSON (4.2.0)
+  - ViewAnimator (2.2.0)
+
+DEPENDENCIES:
+  - AAInfographics
+  - Alamofire (~> 4.7)
+  - AlamofireImage (~> 3.4)
+  - AWSAPIGateway (~> 2.6.13)
+  - AWSAuthUI (~> 2.6.13)
+  - AWSDynamoDB (~> 2.6.13)
+  - AWSMobileClient (~> 2.6.13)
+  - AWSUserPoolsSignIn (~> 2.6.13)
+  - CircleMenu
+  - CryptoSwift
+  - ElongationPreview
+  - expanding-collection
+  - fluid-slider
+  - FoldingCell
+  - garland-view
+  - GSKStretchyHeaderView
+  - Navigation-stack
+  - NewPopMenu (~> 2.0)
+  - paper-onboarding
+  - PreviewTransition
+  - RAMAnimatedTabBarController
+  - RAMPaperSwitch
+  - RAMReel
+  - RxCocoa
+  - RxSwift
+  - ScrollableGraphView
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SnapKit (~> 4.0.0)
+  - SwiftProgressHUD
+  - SwiftyBeaver
+  - SwiftyJSON (~> 4.0)
+  - ViewAnimator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AAInfographics
+    - Alamofire
+    - AlamofireImage
+    - AWSAPIGateway
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - CircleMenu
+    - CryptoSwift
+    - ElongationPreview
+    - expanding-collection
+    - fluid-slider
+    - FoldingCell
+    - garland-view
+    - GSKStretchyHeaderView
+    - Navigation-stack
+    - NewPopMenu
+    - paper-onboarding
+    - pop
+    - PreviewTransition
+    - RAMAnimatedTabBarController
+    - RAMPaperSwitch
+    - RAMReel
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - ScrollableGraphView
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SwiftProgressHUD
+    - SwiftyBeaver
+    - SwiftyJSON
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  AAInfographics: 10f87e06fc007a0adbb05de020e4a2fe3119f8de
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
+  AWSAPIGateway: e68c89ba7925981c0b1e04e2725fb52a0cd43afd
+  AWSAuthCore: 386e045a341acebf2409425467e907ae1a45ed63
+  AWSAuthUI: 55b403e6f2ad010730c4dfa56b0eb96b041fce4c
+  AWSCognitoIdentityProvider: 0a041bd229a105d73f3a4d7eb90f696f1b5bd422
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 2dab62ef2e5ca5d8c72c6cbdb3a6ea1532c27c2b
+  AWSDynamoDB: f4902fc37384dcf9547e2d8a32a5b208d4d1d996
+  AWSMobileClient: f89a36e0d95fc354a9d3b50d347371788c542449
+  AWSUserPoolsSignIn: cf3293cf2c423922e628082a9b09e77473afc8b0
+  CircleMenu: d846569acbe805b75cef5793056707224240db64
+  CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
+  ElongationPreview: c167df6cf34e21cec440061c57041cfac1368d9a
+  expanding-collection: 008241debdc263d25e230d6a0824a558a8f2755c
+  fluid-slider: a19a991606a34a545cba9341e7422073b4ec3a66
+  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
+  garland-view: a1eb9c9c5d63bd8027ae3a8b58d9cc05ab89de3a
+  GSKStretchyHeaderView: 9743704c12bdc9cf7c7947bad3af8bf24f7061e3
+  Navigation-stack: dbe34ea07b9f43e7ece931b81632dcd5540cfda6
+  NewPopMenu: 60d67846a401964dcaa51bffb792f04f6fe2fc76
+  paper-onboarding: a2e3a710fd27ac0b5635ec5490660e7ec09289b5
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PreviewTransition: 5495edbb67a5e041383ad1760e7f71906bd5dd76
+  RAMAnimatedTabBarController: 677d6f7ec7e88b1089486f4db49b0a5067e8ad1c
+  RAMPaperSwitch: 9b81604ec2e7d6dda3fd2cbac53eb012f7a5cc87
+  RAMReel: 815addc9594886e6816b891a1559058f05ff9580
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftProgressHUD: 27d2a9fb4e9f356dbbbfd98477916652cc9b7ac1
+  SwiftyBeaver: ccfcdf85a04d429f1633f668650b0ce8020bda3a
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  ViewAnimator: a849844cc3698620e1a562b510ed0c28aeafcdc5
+
+PODFILE CHECKSUM: 968c00f8dae1b80d2c5f5dcaa0ac5418d78b735f
+
+COCOAPODS: 1.5.3
