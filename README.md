@@ -30,6 +30,6 @@
 ## License
 
  > PFXStudio License
-Copyright (c) 2019 JINWOO PARK
+ > Copyright (c) 2019 JINWOO PARK
 
  >참고용 코드로 활용 해 주시기 바라며 배포는 금지 해 주세요...
