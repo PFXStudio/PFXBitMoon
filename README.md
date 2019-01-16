@@ -31,6 +31,8 @@
  - Swift 4.2+
  - cocoapods
 
+## AppStore
+ https://itunes.apple.com/gb/developer/studio-pfx/id1448979342?mt=8
 
 ## License
 
